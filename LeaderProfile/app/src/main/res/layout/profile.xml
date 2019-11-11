@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_columnWeight="1"
+    android:layout_rowWeight="1"
+    app:cardElevation="60dp"
+    app:cardCornerRadius="12dp"
+    android:layout_margin="12dp"
+    android:alignmentMode="alignMargins"
+    android:columnOrderPreserved="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="110dp"
+            android:layout_height="114dp"
+            android:src="@drawable/abraham"/>
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:textColor="#6f6f6f"
+            android:text="Abraham Lincoln">
+
+        </TextView>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
